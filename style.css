@@ -1,0 +1,44 @@
+.menu li{
+padding:10px;
+float:left;
+}
+.tableau td:nth-child(2n+1){
+color:gray;
+font-size: 14px;
+}
+.tableau td:nth-child(2n){
+    font-weight: bold;
+	font-size: 15px;
+	padding-left: 14px;
+}
+.tableau td:last-child{
+	padding-left: 14px;
+}
+.inner {
+    width: 98%;
+    max-width: 1111px;
+    margin: 0 auto;
+    float: none;
+}
+.bouton a,.bouton input{
+    background-color: #2083fe;
+    padding: 8px 23px;
+    margin: 9px;
+    color: white;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 5px;
+}
+.input input {
+padding: 10px 5px;
+    border-radius: 7px;
+    font-size: 14px;
+	margin-left: 20px;
+}
+.div{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+	border-radius: 8px;
+	text-align: center;
+}
